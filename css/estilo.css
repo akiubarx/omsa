@@ -1,0 +1,23 @@
+/*
+Reglas para css
+1.- Definir estilos para etiquetas: header, fotter, div, etc.
+2.- Definir estilos para identificadores (id), los id's son elementos unicos para html,
+	se declaran con el simbolo # ejemplo: #nombre-id(estilos) en html se usa atributo id
+	<div id="publicidad"></div>;
+3.- Definir estilos para las clases (class) estas se pueden repetir en html
+	en css se declaran con "." ejemplo: .nombre-class (estilos) y en html es: <div class="borde-logo" </div>;
+4.- Los estilos se ordenan segun su aparicion en el html
+5.- Lo atributos se declaran: (atributo1:valor1; atributo2:valor2; etc)
+6.- Todos los atributos se ordenan alfabaticamente
+7.- Si tenemos estilos para etiquetas etc, primero se definen
+8.- Declarar tamaño de fuente global en el body
+9.- Los resets se colocan antes de cualquier estilo
+*/
+
+*{
+	margin: 0%; 
+	padding: 0%;}
+body {background: #ffffff;
+	color: #44AB33;
+	font-size:16px;	
+}
