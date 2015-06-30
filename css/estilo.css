@@ -7,10 +7,20 @@ body
 	background: #FFFFFF;
 	font-family: "Lora";
 	font-size: 16px;
+}
+footer
+{
+	background: #F3F3F3;
+	text-align: left;
+	color: #575756;
+	padding: 1em;
+}
+footer p:first-child
+{
+	margin-bottom: 0;
 } 
 header
 {
-	border: 1px solid red;
 	background: #FFFFFF;
 	color: #44AB33;
 	margin: 0 0 0 0;
@@ -20,7 +30,6 @@ header
 }
 header figure
 {
-	border: 1px solid red;
 	float: left;
 	position: absolute left;
 }
@@ -31,12 +40,84 @@ header h1
 	font-weight: normal;
 	font-style: italic;
 	text-align: right;
-	margin: 0.8em 1em 0 0;
+	margin: 0.8em 0 0 0;
 }
 header #logo img
 {
 	width: 335px;
 }
-
-
-
+nav
+{
+	font-family: "Roboto";
+	background: #45AB34;
+	padding: 0 0.5em;
+	box-shadow: rgba(0,0,0,0.5) 0px 2px 5px;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li
+{
+	display: inline-block;
+	margin: 0 2em 0 0;
+}
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 0.5em 0;
+}
+nav.lateral
+{
+	background: #f3f3f3;
+	padding: 0 0.5em;
+	position: absolute right;
+	text-align: right;
+}
+nav.lateral > ul
+{
+	list-style: none;
+}
+nav.lateral > ul >li
+{
+	display: block;
+}
+nav.lateral a
+{
+	color: #45AB34;
+	text-decoration: none;
+}
+#contenido
+{
+	margin: 1em;
+}
+#contenido .item
+{
+	background: white;
+	overflow: hidden;
+}
+#contenido .item .imagen_item
+{
+	float: top;
+	margin: 0 0 0 -5em;
+}
+#contenido .item .imagen_item img
+{
+	width: 550px;
+}
+#contenido .item .titulo_item
+{
+	font-size: 2em;
+	font-family: "Roboto";
+	color: #45AB34;
+	text-align: left;
+}
+#contenido .item .titulo_item a
+{
+	color: #575756;
+	font-family: "Lora";
+	font-style: italic;
+}
